@@ -3713,9 +3713,11 @@ case 'google': {
 1. ${prefix}nuliskiri
 2. ${prefix}nuliskanan
 3. ${prefix}foliokiri
-4. ${prefix}foliokanan
+4. ${prefixfoliokanan
 
-Cj.              break
+Contoh:
+${prefix}nuliskiri Maen Growcery Sini`)    
+           break
         case 'nuliskiri': {
             if (text.length < 2) return reply(lang.KisahNabi(prefix, command, 'Support Bot WhatsApp'))
             reply(lang.wait())
