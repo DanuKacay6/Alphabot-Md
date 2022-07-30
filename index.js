@@ -815,13 +815,13 @@ if (!m.isGroup) return reply(lang.groupOnly())
             var but = [
           {
             "urlButton": {
-              "displayText": "YouTube Creator",
+              "displayText": "Link Gtps Terbaru?",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Rest Api's",              
+              "displayText": " LINK GTPS 3.96?",              
               "url": `${myweb}`
 
             }
@@ -3715,9 +3715,7 @@ case 'google': {
 3. ${prefix}foliokiri
 4. ${prefix}foliokanan
 
-Contoh:
-${prefix}nuliskiri Subscribe Ya https://youtube.com/c/zeeoneofc`)
-            break
+Cj.              break
         case 'nuliskiri': {
             if (text.length < 2) return reply(lang.KisahNabi(prefix, command, 'Support Bot WhatsApp'))
             reply(lang.wait())
